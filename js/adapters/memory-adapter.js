@@ -23,6 +23,17 @@ app.adapters.employee = (function () {
             deferred.resolve(results);
             return deferred.promise();
         },
+		
+		
+		findByCompanyName = function (searchKey) {
+            var deferred = $.Deferred();
+            var results = employees.filter(function (element) {
+                var companyName = element.companyName;
+                return companyName.toLowerCase().indexOf(searchKey.toLowerCase()) > -1;
+            });
+            deferred.resolve(results);
+            return deferred.promise();
+        },
 
         findByManager = function (managerId) {
             var deferred = $.Deferred();
@@ -41,6 +52,7 @@ app.adapters.employee = (function () {
     return {
         findById: findById,
         findByName: findByName,
+		findByCompanyName: findByCompanyName,
         findByManager: findByManager
     };
 
