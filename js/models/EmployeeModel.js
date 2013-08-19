@@ -29,6 +29,22 @@ app.models.EmployeeCollection = Backbone.Collection.extend({
 
 });
 
+
+app.models.EmployeeCollection = Backbone.Collection.extend({
+
+    model: app.models.Employee,
+
+    sync: function(method, model, options) {
+        if (method === "read") {
+            app.adapters.employee.findByCompanyName(options.data.name).done(function (data) {
+                options.success(data);
+            });
+        }
+    }
+
+});
+
+
 app.models.ReportsCollection = Backbone.Collection.extend({
 
     model: app.models.Employee,
