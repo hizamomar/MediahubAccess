@@ -96,7 +96,7 @@ a {
 }
 
 .list li:active {
-    background-color: #88317e;
+    background-color: #0b5f98;
     -webkit-box-shadow: inset 0 1px rgba(0,0,0,0.18);
     box-shadow: inset 0 1px rgba(0,0,0,0.18);
 }

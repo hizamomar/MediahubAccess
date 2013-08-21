@@ -16,7 +16,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #88317E;
+  background-color: #0b5f98;
   color: #000;
   font: 16px "Source Sans", helvetica, arial, sans-serif;
   font-weight: 200;
@@ -154,7 +154,7 @@ limitations under the License.
   color: #c6c8c8;
   text-shadow: 0 -1px rgba(0,0,0,0.69);
   vertical-align: top;
-  background-color: #595b5b;
+  background-color: #0b5f98;
   -webkit-box-shadow: inset 0 1px rgba(255,255,255,0.12);
   box-shadow: inset 0 1px rgba(255,255,255,0.12);
   border: 1px solid rgba(0,0,0,0.36);
@@ -165,7 +165,7 @@ limitations under the License.
 .topcoat-button.is-active,
 .topcoat-button--large:active,
 .topcoat-button--large.is-active {
-  background-color: #404141;
+  background-color: #0b5f98;
   -webkit-box-shadow: inset 0 1px rgba(0,0,0,0.18);
   box-shadow: inset 0 1px rgba(0,0,0,0.18);
 }
@@ -203,7 +203,7 @@ limitations under the License.
 .topcoat-button--large--quiet.is-active {
   color: #c6c8c8;
   text-shadow: 0 -1px rgba(0,0,0,0.69);
-  background-color: #404141;
+  background-color: #0b5f98;
   border: 1px solid rgba(0,0,0,0.36);
   -webkit-box-shadow: inset 0 1px rgba(0,0,0,0.18);
   box-shadow: inset 0 1px rgba(0,0,0,0.18);
@@ -421,7 +421,7 @@ limitations under the License.
 }
 .topcoat-icon-button:active,
 .topcoat-icon-button.is-active {
-  background-color: #404141;
+  background-color: #0b5f98;
   -webkit-box-shadow: inset 0 1px rgba(0,0,0,0.18);
   box-shadow: inset 0 1px rgba(0,0,0,0.18);
 }
@@ -467,7 +467,7 @@ limitations under the License.
 .topcoat-icon-button--large--quiet.is-active {
   color: #c6c8c8;
   text-shadow: 0 -1px rgba(0,0,0,0.69);
-  background-color: #404141;
+  background-color: #0b5f98;
   border: 1px solid rgba(0,0,0,0.36);
   -webkit-box-shadow: inset 0 1px rgba(0,0,0,0.18);
   box-shadow: inset 0 1px rgba(0,0,0,0.18);
@@ -510,7 +510,7 @@ limitations under the License.
 }
 .topcoat-icon-button--large:active,
 .topcoat-icon-button--large.is-active {
-  background-color: #404141;
+  background-color: #0b5f98;
   -webkit-box-shadow: inset 0 1px rgba(0,0,0,0.18);
   box-shadow: inset 0 1px rgba(0,0,0,0.18);
 }
@@ -622,7 +622,7 @@ limitations under the License.
   -webkit-overflow-scrolling: touch;
   border-top: 1px solid #2f3234;
   border-bottom: 1px solid #eff1f1;
-  background-color: #88317e;
+  background-color: #0b5f98;
 }
 .topcoat-list__header {
   margin: 0;
@@ -712,10 +712,10 @@ Navigation Bar
   height: 4rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  background: #88317e;
+  background: #0b5f98;
   color: #fff;
-  -webkit-box-shadow: inset 0 -3px #3C0000, 0 1px rgba(0,0,0,0.2);
-  box-shadow: inset 0 -3px #3C0000, 0 1px rgba(0,0,0,0.2);
+  -webkit-box-shadow: inset 0 -2px #3C0000, 0 1px rgba(0,0,0,0.2);
+  box-shadow: inset 0 -2px #3C0000, 0 1px rgba(0,0,0,0.2);
   
 }
 .topcoat-navigation-bar__item {
@@ -797,7 +797,7 @@ limitations under the License.
   font-weight: 200;
   outline: none;
   border: 1px solid rgba(0,0,0,0.36);
-  background-color: #88317e;
+  background-color: #0b5f98;
   -webkit-box-shadow: inset 0 1px rgba(0,0,0,0.18);
   box-shadow: inset 0 1px rgba(0,0,0,0.18);
   color: #c6c8c8;
@@ -904,7 +904,7 @@ limitations under the License.
   font-weight: 200;
   outline: none;
   border: 1px solid rgba(0,0,0,0.36);
-  background-color: #595b5b;
+  background-color: #0b5f98;
   -webkit-box-shadow: inset 0 1px rgba(0,0,0,0.18);
   box-shadow: inset 0 1px rgba(0,0,0,0.18);
   color: #c6c8c8;
