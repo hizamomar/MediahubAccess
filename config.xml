@@ -12,7 +12,7 @@
         Let's Link With Mediahub Access.
     </description>
 
-    <author href="http://mediahubaccess.com" email="hizam.omar@mediahubaccess.com">
+    <author href="http://hizamomar.com" email="hizam.omar@gmail.com">
         Mediahub Access Team
     </author>
 
@@ -30,7 +30,7 @@
     <preference name="permissions"                value="none"/>
 
     <!-- Customize your app and platform with the preference element. -->
-    <preference name="phonegap-version"           value="2.9.0" />          <!-- all: current version of PhoneGap -->
+    <preference name="phonegap-version"           value="3.7.0" />          <!-- all: current version of PhoneGap -->
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen"                 value="false" />           <!-- all: hides the status bar at the top of the screen -->
